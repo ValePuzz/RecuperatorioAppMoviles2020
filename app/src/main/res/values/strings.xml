@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RecuperatorioAppMoviles2020</string>
+    <string name="titulo_inicial">Examen Final</string>
+    <string name="titulo_form">Complete los campos solicitados:</string>
+    <string name="nombre">Ingrese su nombre:</string>
+    <string name="apellido">Ingrese su apellido:</string>
+    <string name="legajo">Ingrese su legajo:</string>
+    <string name="inscribir">Inscribirse</string>
+    <string name="nombre_canal">nombrecanal</string>
+</resources>

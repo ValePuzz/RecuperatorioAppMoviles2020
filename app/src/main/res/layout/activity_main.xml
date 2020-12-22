@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_inicial"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/apellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/apellido"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sexo"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/botonMasculino"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Masculino"/>
+        <RadioButton
+            android:id="@+id/botonFemenino"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Femenino" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/legajo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/legajo"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/seleccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Elija su turno de preferencia:" />
+
+    <Spinner
+        android:id="@+id/spinnerTurnos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dialog" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/botoninscribirme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_500"
+            android:layout_weight="1"
+            android:hint="@string/inscribir" />
+    </LinearLayout>
+
+
+</LinearLayout>
